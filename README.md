@@ -1,5 +1,7 @@
 # MCP Think Tool Server
 
+[![smithery badge](https://smithery.ai/badge/@ddkang1/mcp-think-tool)](https://smithery.ai/server/@ddkang1/mcp-think-tool)
+
 A Model Context Protocol (MCP) server implementing the "think" tool for improving Claude's complex reasoning capabilities.
 
 ## Overview
@@ -15,6 +17,15 @@ This MCP server implements the "think" tool as described in Anthropic's [blog po
 
 ## Installation
 
+### Installing via Smithery
+
+To install mcp-think-tool for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@ddkang1/mcp-think-tool):
+
+```bash
+npx -y @smithery/cli install @ddkang1/mcp-think-tool --client claude
+```
+
+### Manual Installation
 Install from PyPI:
 
 ```bash
